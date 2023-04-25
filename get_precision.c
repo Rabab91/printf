@@ -10,7 +10,6 @@
  */
 char *get_precision(char *p, params_t *params, va_list ap)
 {
-<<<<<<< HEAD
 int curr_i = *i + 1;
 int precision = -1;
 
@@ -39,7 +38,7 @@ break;
 *i = curr_i - 1;
 
 return (precision);
-=======
+
 	int d = 0;
 
 	if (*p != '.')
@@ -58,4 +57,3 @@ return (precision);
 	params->precision = d;
 	return (p);
 }
-
